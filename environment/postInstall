@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+cd /opt
+wget -O cellranger-7.1.0.tar.gz "https://cf.10xgenomics.com/releases/cell-exp/cellranger-7.1.0.tar.gz?Expires=1694243317&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZi4xMHhnZW5vbWljcy5jb20vcmVsZWFzZXMvY2VsbC1leHAvY2VsbHJhbmdlci03LjEuMC50YXIuZ3oiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2OTQyNDMzMTd9fX1dfQ__&Signature=ODv~M2ONZZYOQPgmALgGldwwCus7zmCzAmPVocxQ6F7kuvMwZaf-Nz6wD3VyNrFQ-cfBAjjwksX~ZnoutyO9zP6qujOautvVaYjfWk3s3PyYkYcKfCM6C6m3hxNuqSXsr85IeSeH906tWYRJTCkYhPPJt0BslIMs-mjZdwYsG9ofl1bOdYLMthD1T2iKmjSvmqAvYtE-8oWCp-9C4QatVWxJtpXHTkDd5Syy8zHjc-J28u4YtuP5Suowj5RSax4WQDxH90gBf~UmUtSfACK4GsQLpWggp7l8EKL-S-06-vvtZrmFqamTuCLS~WildmnRjQ0R~jDKRCP96EmHlBwPMA__&Key-Pair-Id=APKAI7S6A5RYOXBWRPDA"
+tar -xzvf cellranger-7.1.0.tar.gz
+ln -s /opt/cellranger-7.1.0/bin/cellranger /usr/local/bin

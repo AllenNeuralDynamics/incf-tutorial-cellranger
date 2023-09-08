@@ -1,0 +1,9 @@
+metadata_version: 1
+name: 'INCF: CellRanger'
+description: Analysis pipelines perform sample demultiplexing, barcode processing,
+  single cell 3' gene counting, and the ability to process data from Targeted Gene
+  Expression and Feature Barcode technology.
+tags:
+- cellranger
+authors:
+- name: Frank Zappulla
